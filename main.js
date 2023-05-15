@@ -4,7 +4,7 @@ function addElement() {
     let el = document.createElement('button');
     el.id = 'created';
     el.className = 'created-element';
-    el.textContent = 'Created';
+    el.textContent = 'Ball :)';
 
     cont.appendChild(el);
 }
