@@ -39,8 +39,7 @@ JAVASCRIPT
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Live demo coming soon
-- [Live Demo Link](https://google.com)
+To play this game click [here](https://marvin-nyalik.github.io/DestryMarkers/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
