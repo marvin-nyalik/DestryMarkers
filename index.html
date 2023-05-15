@@ -13,25 +13,31 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <h1 class="display-4 fs-1">Destry Markers - Uncenssored</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis magni eaque odit non quo distinctio amet doloremque aspernatur. Exercitationem, sit possimus sapiente id fuga nesciunt hic voluptatum voluptatem aliquam!
+                Play with your DOM
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h2 class="display-6 my-2 fs-1">The below section allows you to play around with DOM manipulation</h2>
+                <h2 class="my-2 fs-1">The below section allows you to play around with DOM manipulation</h2>
                 <p class="lead my-3">"These elements appear in the right section"</p>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <h3 class="lead fw-bold">Add to Dom</h3>
-                <button class="btn btn-primary mb-1" id="add">Add Element</button>
+                <small class="lead fs-6">adds an element everytime</small><br>
+                <button class="btn btn-primary mb-1" id="add" onclick="addElement()">Add Element</button>
                 <h3 class="lead fw-bold">Alter it's style</h3>
-                <button class="btn btn-success mb-1" id="alter">Alter Element</button>
+                <small class="lead fs-6">alters first element added</small><br>
+                <button class="btn btn-success mb-1" id="alter" onclick="alterElement()">Alter Element</button>
+                <h3 class="lead fw-bold">Alter all elements</h3>
+                <small class="lead fs-6">alters all elements added </small>
+                <button class="btn btn-warning mb-1" id="alter" onclick="alterAllElements()">Alter All Elements</button>
                 <h3 class="lead fw-bold">Remove Element</h3>
-                <button class="btn btn-danger mb-1" id="remove">Delete Element</button>
+                <small class="lead fs-6">Clears the working section</small>
+                <button class="btn btn-danger mb-1" id="remove" onclick="deleteElements()">Delete Elements</button>
             </div>
-            <div class="col-md-5 bg-light border-dark">
+            <div class="col-md-5 bg-light border-dark" id="dynamic-container">
 
             </div>
         </div>
